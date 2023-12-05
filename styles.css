@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: #F5F5F5;
 }
   
 .nav {
@@ -17,9 +18,133 @@ body {
   color: #f4f3ef;
 }
 
-.description {
+.description1 {
   list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
 }
-.description li{
+.description1 li{
   display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description1 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description1 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description2 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description2 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description3 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description3 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+  margin-right: 30px;
+}
+
+.description4 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description4 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description5 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description5 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description6 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description6 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description7 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description7 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description8 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description8 li{
+  display: inline-block;
+  border: 1px solidwhite;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+.description9 {
+  list-style-type: none;
+  border: 1px solidwhite;
+  background-color: white;
+}
+.description9 li{
+  display: inline-block;
+  border: 1px solid white;
+  padding: 2px;
+  color: #777777;
+  background-color: #eeeeee;
 }
