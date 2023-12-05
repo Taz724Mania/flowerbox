@@ -148,3 +148,21 @@ body {
   color: #777777;
   background-color: #eeeeee;
 }
+
+h4 {
+  color: #92b2ba;
+}
+
+.price {
+  color: white;
+  background-color: #f0a8bb;
+}
+
+.header {
+  color: #f0a8bb;
+  background-color: white;
+}
+
+h1 {
+  color: #92b2ba;
+}
