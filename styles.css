@@ -68,7 +68,7 @@ body {
   padding: 2px;
   color: #777777;
   background-color: #eeeeee;
-  margin-right: 30px;
+  
 }
 
 .description4 {
@@ -151,6 +151,7 @@ body {
 
 h4 {
   color: #92b2ba;
+  display: inline-block;
 }
 
 .price {
@@ -165,4 +166,8 @@ h4 {
 
 h1 {
   color: #92b2ba;
+}
+
+.footer {
+  list-style-type: none;
 }
