@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+  
+.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color:  #92b2ba;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #f4f3ef;
+}
+
+.description {
+  list-style-type: none;
+}
+.description li{
+  display: inline-block;
+}
