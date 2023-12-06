@@ -21,7 +21,29 @@ nav {
   color: #f4f3ef;
 }
 
-.Banner {
+
+header {
+  background-image: url('./images/banner\ \(1\).png');
+  background-size: cover;
+  height: 800px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.headText {
+  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: end;
+  right: 85px;
+  top: 700px;
+}
+
+/* below didn't work */
+
+/* header {
   background-image: url('./images/banner\ \(1\).png');
   background-repeat: no-repeat;
   background-color: var(pink);
@@ -29,8 +51,25 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
 }
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-family: 'DM sans', calibri;
+  color: #92b2ba;
+}
+
+header h2 {
+  background-color: white;
+  padding: .3em .5em;
+  color: #f0a8bb;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+/* above didn't work, it stayed in the top left corner */
 
 .product1 {
   background-image: url('./images/flower-1\ .png');
@@ -145,19 +184,6 @@ nav {
   background-color: #eeeeee;
 }
 
-.description1 {
-  list-style-type: none;
-  border: 1px solidwhite;
-  background-color: white;
-}
-.description1 li{
-  display: inline-block;
-  border: 1px solidwhite;
-  padding: 2px;
-  color: #777777;
-  background-color: #eeeeee;
-}
-
 .description2 {
   list-style-type: none;
   border: 1px solidwhite;
@@ -181,8 +207,7 @@ nav {
   border: 1px solidwhite;
   padding: 2px;
   color: #777777;
-  background-color: #eeeeee;
-  
+  background-color: #eeeeee; 
 }
 
 .description4 {
@@ -190,6 +215,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description4 li{
   display: inline-block;
   border: 1px solidwhite;
@@ -203,6 +229,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description5 li{
   display: inline-block;
   border: 1px solidwhite;
@@ -216,6 +243,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description6 li{
   display: inline-block;
   border: 1px solidwhite;
@@ -229,6 +257,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description7 li{
   display: inline-block;
   border: 1px solidwhite;
@@ -242,6 +271,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description8 li{
   display: inline-block;
   border: 1px solidwhite;
@@ -255,6 +285,7 @@ nav {
   border: 1px solidwhite;
   background-color: white;
 }
+
 .description9 li{
   display: inline-block;
   border: 1px solid white;
@@ -273,12 +304,6 @@ h4 {
   background-color: #f0a8bb;
 }
 
-
-
-h1 {
-  color: #92b2ba;
-}
-
 .footer {
   list-style-type: none;
-}
+} 
