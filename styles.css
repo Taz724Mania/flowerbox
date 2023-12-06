@@ -1,6 +1,10 @@
 body {
-  text-align: center;
   background-color: #F5F5F5;
+}
+
+nav {
+  margin: 0px 75px 0px 75px;
+  background-color:  #92b2ba; 
 }
   
 .nav {
@@ -8,7 +12,6 @@ body {
   margin: 0 auto;
   border: 1px solid #ccc;
   padding: 10px;
-  background-color:  #92b2ba;
 }
 
 .nav li {
@@ -16,6 +19,117 @@ body {
   margin-right: 100px;
   margin-left: 100px;
   color: #f4f3ef;
+}
+
+.Banner {
+  background-image: url('./images/banner\ \(1\).png');
+  background-repeat: no-repeat;
+  background-color: var(pink);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product1 {
+  background-image: url('./images/flower-1\ .png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product2 {
+  background-image: url("./images/flower-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product3 {
+  background-image: url('./images/flower-3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product4 {
+  background-image: url('./images/flower-4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product5 {
+  background-image: url('./images/flower-5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product6 {
+  background-image: url('./images/flower-6.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product7 {
+  background-image: url('./images/flower-7.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product8 {
+  background-image: url('./images/flower-8.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product9 {
+  background-image: url('./images/flower-9.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer1 {
+  background-image: url('./images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .description1 {
@@ -159,10 +273,7 @@ h4 {
   background-color: #f0a8bb;
 }
 
-.header {
-  color: #f0a8bb;
-  background-color: white;
-}
+
 
 h1 {
   color: #92b2ba;
